@@ -1,0 +1,45 @@
+.container{
+  border: 2px solid black;
+  background-color: white;
+  height: 900px;
+  width: 500px;
+  margin:0 auto;
+}
+img{
+    width: 350px;
+    height: 350px;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+.parentBar{
+    border: 2px solid black;
+    height: 4px;
+    background-color: black;
+}
+.childBar{
+    border: 2px solid white;
+    width: 0px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.curretTime{
+    font-size: 20px;
+    color: black;
+}
+.totalTime{
+    font-size: 20px;
+    color: black;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-size: 50px;
+}

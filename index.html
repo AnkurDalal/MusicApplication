@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+     <img src="Images/image1.jpg" alt="">
+     <h2 id="song">Russian Bandana</h2>
+     <h2 id="singer">Dhanda Nyoliwala</h2>
+
+    <div class="parentBar">
+        <div class="childBar"></div>
+    </div>
+   <div class="time">
+    <div class="curretTime">
+      0:00
+    </div>
+    <div class="totalTime">
+      4:30
+    </div>
+   </div>
+  
+   <div class="icons">
+            <i class="fa-solid fa-shuffle" id="shuffle"></i>
+            <i class="fa-solid fa-backward" id="backward"></i>
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-forward" id="forward"></i>
+            <i class="fa-solid fa-heart" id="heart"></i>
+   </div>
+
+   <audio src="Audio/audio1.mp3"></audio>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
